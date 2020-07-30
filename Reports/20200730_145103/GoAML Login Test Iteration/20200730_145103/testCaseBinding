@@ -1,3 +1,0 @@
-{"testCaseName":"Test Cases/GoAML Login - Iteration 1","testCaseId":"Test Cases/GoAML Login","bindedValues":{"password":"\u0027superuser\u0027","username":"\u0027sysadmin\u0027"}}
-{"testCaseName":"Test Cases/GoAML Login - Iteration 2","testCaseId":"Test Cases/GoAML Login","bindedValues":{"password":"\u0027P@ssw0rd\u0027","username":"\u0027Axel1\u0027"}}
-{"testCaseName":"Test Cases/GoAML Login - Iteration 3","testCaseId":"Test Cases/GoAML Login","bindedValues":{"password":"\u0027P@ssw0rd\u0027","username":"\u0027Axel2\u0027"}}

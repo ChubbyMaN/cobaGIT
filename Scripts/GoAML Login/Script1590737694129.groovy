@@ -16,19 +16,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+for(def rowNum=1; rowNum <=findTestData('logintestdatafiles/logintestdata').getRowNumbers() ; rowNum++)
+{
 
-WebUI.maximizeWindow()
+	WebUI.openBrowser('')
+	
+	WebUI.maximizeWindow()
+	
+	WebUI.navigateToUrl('http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx')
 
-WebUI.navigateToUrl('http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx')
+	WebUI.setText(findTestObject('OR_Login/Username'), findTestData('logintestdatafiles/logintestdata').getValue(1,rowNum))
+	
+	WebUI.setText(findTestObject('OR_Login/Password'), findTestData('logintestdatafiles/logintestdata').getValue(2,rowNum))
+	
+	WebUI.click(findTestObject('OR_Login/Sign In Button'))
 
-WebUI.setText(findTestObject('OR_Login/Username'), username)
+	WebUI.delay(5)
+	
+	WebUI.closeBrowser()
 
-WebUI.setText(findTestObject('OR_Login/Password'), password)
-
-WebUI.click(findTestObject('OR_Login/Sign In Button'))
-
-WebUI.delay(8)
-
-WebUI.closeBrowser()
-
+}
