@@ -22,13 +22,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx')
 
-WebUI.setText(findTestObject('OR_Login/Username'), 'sysadmin')
+WebUI.setText(findTestObject('OR_Login/Username'), username)
 
-WebUI.setText(findTestObject('OR_Login/Password'), 'superuser')
+WebUI.setText(findTestObject('OR_Login/Password'), password)
 
 WebUI.click(findTestObject('OR_Login/Sign In Button'))
 
-WebUI.waitForPageLoad(10)
+WebUI.delay(8)
 
 WebUI.closeBrowser()
 

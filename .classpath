@@ -131,6 +131,5 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/Katalon Studio/configuration/plugin/install/32487/1.0.7/katalon-studio-report-plugin.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

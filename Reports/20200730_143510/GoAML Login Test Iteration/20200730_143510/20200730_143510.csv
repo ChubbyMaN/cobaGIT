@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GoAML Login Test Iteration,Chrome 84.0.4147.105,,,2020-07-30 14:35:20,2020-07-30 14:36:19,59.078s,PASSED
+,,,,,,,
+Test Cases/GoAML Login,Chrome 84.0.4147.105,Buat Test Login GoAML,,2020-07-30 14:35:21,2020-07-30 14:35:50,29.561s,PASSED
+"openBrowser("""")",Chrome 84.0.4147.105,,,2020-07-30 14:35:21,2020-07-30 14:35:29,7.852s,PASSED
+maximizeWindow(),Chrome 84.0.4147.105,,,2020-07-30 14:35:29,2020-07-30 14:35:31,2.198s,PASSED
+"navigateToUrl(""http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx"")",Chrome 84.0.4147.105,,,2020-07-30 14:35:31,2020-07-30 14:35:34,2.969s,PASSED
+"setText(findTestObject(""OR_Login/Username""), username)",Chrome 84.0.4147.105,,,2020-07-30 14:35:34,2020-07-30 14:35:35,0.707s,PASSED
+"setText(findTestObject(""OR_Login/Password""), password)",Chrome 84.0.4147.105,,,2020-07-30 14:35:35,2020-07-30 14:35:36,0.560s,PASSED
+"click(findTestObject(""OR_Login/Sign In Button""))",Chrome 84.0.4147.105,,,2020-07-30 14:35:36,2020-07-30 14:35:49,13.467s,PASSED
+waitForPageLoad(10),Chrome 84.0.4147.105,,,2020-07-30 14:35:49,2020-07-30 14:35:49,0.230s,PASSED
+closeBrowser(),Chrome 84.0.4147.105,,,2020-07-30 14:35:49,2020-07-30 14:35:50,0.869s,PASSED
+,,,,,,,
+Test Cases/GoAML Login,Chrome 84.0.4147.105,Buat Test Login GoAML,,2020-07-30 14:35:50,2020-07-30 14:36:03,13.216s,PASSED
+"openBrowser("""")",Chrome 84.0.4147.105,,,2020-07-30 14:35:50,2020-07-30 14:35:54,3.943s,PASSED
+maximizeWindow(),Chrome 84.0.4147.105,,,2020-07-30 14:35:54,2020-07-30 14:35:56,2.136s,PASSED
+"navigateToUrl(""http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx"")",Chrome 84.0.4147.105,,,2020-07-30 14:35:56,2020-07-30 14:35:59,2.933s,PASSED
+"setText(findTestObject(""OR_Login/Username""), username)",Chrome 84.0.4147.105,,,2020-07-30 14:35:59,2020-07-30 14:36:00,0.647s,PASSED
+"setText(findTestObject(""OR_Login/Password""), password)",Chrome 84.0.4147.105,,,2020-07-30 14:36:00,2020-07-30 14:36:00,0.536s,PASSED
+"click(findTestObject(""OR_Login/Sign In Button""))",Chrome 84.0.4147.105,,,2020-07-30 14:36:00,2020-07-30 14:36:02,1.717s,PASSED
+waitForPageLoad(10),Chrome 84.0.4147.105,,,2020-07-30 14:36:02,2020-07-30 14:36:02,0.032s,PASSED
+closeBrowser(),Chrome 84.0.4147.105,,,2020-07-30 14:36:02,2020-07-30 14:36:03,1.245s,PASSED
+,,,,,,,
+Test Cases/GoAML Login,Chrome 84.0.4147.105,Buat Test Login GoAML,,2020-07-30 14:36:04,2020-07-30 14:36:19,15.516s,PASSED
+"openBrowser("""")",Chrome 84.0.4147.105,,,2020-07-30 14:36:04,2020-07-30 14:36:08,4.478s,PASSED
+maximizeWindow(),Chrome 84.0.4147.105,,,2020-07-30 14:36:08,2020-07-30 14:36:10,2.137s,PASSED
+"navigateToUrl(""http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx"")",Chrome 84.0.4147.105,,,2020-07-30 14:36:10,2020-07-30 14:36:13,2.802s,PASSED
+"setText(findTestObject(""OR_Login/Username""), username)",Chrome 84.0.4147.105,,,2020-07-30 14:36:13,2020-07-30 14:36:14,0.616s,PASSED
+"setText(findTestObject(""OR_Login/Password""), password)",Chrome 84.0.4147.105,,,2020-07-30 14:36:14,2020-07-30 14:36:14,0.559s,PASSED
+"click(findTestObject(""OR_Login/Sign In Button""))",Chrome 84.0.4147.105,,,2020-07-30 14:36:14,2020-07-30 14:36:18,3.545s,PASSED
+waitForPageLoad(10),Chrome 84.0.4147.105,,,2020-07-30 14:36:18,2020-07-30 14:36:18,0.084s,PASSED
+closeBrowser(),Chrome 84.0.4147.105,,,2020-07-30 14:36:18,2020-07-30 14:36:19,1.272s,PASSED

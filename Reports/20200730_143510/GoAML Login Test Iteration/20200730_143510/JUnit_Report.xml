@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GoAML Login Test Iteration" time="59.87" tests="3" failures="0" errors="0">
+   <testsuite name="GoAML Login Test Iteration" tests="3" failures="0" errors="0" time="59.87" timestamp="2020-07-30 14:35:20" hostname="Axel - Axel-PC" id="Test Suites/GoAML Login Test Iteration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Axel Ryan Matthew\\Katalon Studio\\git\\cobaGIT\\Reports\\20200730_143510\\GoAML Login Test Iteration\\20200730_143510"/>
+         <property name="logFiles" value="C:\\Users\\Axel Ryan Matthew\\Katalon Studio\\git\\cobaGIT\\Reports\\20200730_143510\\GoAML Login Test Iteration\\20200730_143510\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Axel - Axel-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 84.0.4147.105"/>
+         <property name="hostAddress" value="192.168.159.1"/>
+         <property name="sessionId" value="1c1099cd0b34ae168c6e22a2016a688f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GoAML Login" time="29.561" classname="Test Cases/GoAML Login" status="PASSED">
+         <system-out><![CDATA[2020-07-30 14:35:21 - [TEST_CASE][PASSED] - Test Cases/GoAML Login: Test Cases/GoAML Login
+
+2020-07-30 14:35:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-07-30 14:35:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-30 14:35:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-07-30 14:35:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-07-30 14:35:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-07-30 14:35:31 - [MESSAGE][PASSED] - Current window maximized
+
+2020-07-30 14:35:31 - [TEST_STEP][PASSED] - navigateToUrl("http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx"): Navigate to 'http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx' successfully
+
+2020-07-30 14:35:34 - [MESSAGE][PASSED] - Navigate to 'http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx' successfully
+
+2020-07-30 14:35:34 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Login/Username"), username): Text 'sysadmin' is set on object 'Object Repository/OR_Login/Username'
+
+2020-07-30 14:35:35 - [MESSAGE][PASSED] - Text 'sysadmin' is set on object 'Object Repository/OR_Login/Username'
+
+2020-07-30 14:35:35 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Login/Password"), password): Text 'superuser' is set on object 'Object Repository/OR_Login/Password'
+
+2020-07-30 14:35:36 - [MESSAGE][PASSED] - Text 'superuser' is set on object 'Object Repository/OR_Login/Password'
+
+2020-07-30 14:35:36 - [TEST_STEP][PASSED] - click(findTestObject("OR_Login/Sign In Button")): Object: 'Object Repository/OR_Login/Sign In Button' is clicked on
+
+2020-07-30 14:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Login/Sign In Button' is clicked on
+
+2020-07-30 14:35:49 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-07-30 14:35:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-07-30 14:35:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-07-30 14:35:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GoAML Login" time="13.216" classname="Test Cases/GoAML Login" status="PASSED">
+         <system-out><![CDATA[2020-07-30 14:35:50 - [TEST_CASE][PASSED] - Test Cases/GoAML Login: Test Cases/GoAML Login
+
+2020-07-30 14:35:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-07-30 14:35:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-30 14:35:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-07-30 14:35:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-07-30 14:35:56 - [MESSAGE][PASSED] - Current window maximized
+
+2020-07-30 14:35:56 - [TEST_STEP][PASSED] - navigateToUrl("http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx"): Navigate to 'http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx' successfully
+
+2020-07-30 14:35:59 - [MESSAGE][PASSED] - Navigate to 'http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx' successfully
+
+2020-07-30 14:35:59 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Login/Username"), username): Text 'Axel1' is set on object 'Object Repository/OR_Login/Username'
+
+2020-07-30 14:36:00 - [MESSAGE][PASSED] - Text 'Axel1' is set on object 'Object Repository/OR_Login/Username'
+
+2020-07-30 14:36:00 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Login/Password"), password): Text 'P@ssw0rd' is set on object 'Object Repository/OR_Login/Password'
+
+2020-07-30 14:36:00 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/OR_Login/Password'
+
+2020-07-30 14:36:00 - [TEST_STEP][PASSED] - click(findTestObject("OR_Login/Sign In Button")): Object: 'Object Repository/OR_Login/Sign In Button' is clicked on
+
+2020-07-30 14:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Login/Sign In Button' is clicked on
+
+2020-07-30 14:36:02 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-07-30 14:36:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-07-30 14:36:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-07-30 14:36:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GoAML Login" time="15.516" classname="Test Cases/GoAML Login" status="PASSED">
+         <system-out><![CDATA[2020-07-30 14:36:04 - [TEST_CASE][PASSED] - Test Cases/GoAML Login: Test Cases/GoAML Login
+
+2020-07-30 14:36:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-07-30 14:36:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-30 14:36:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-07-30 14:36:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-07-30 14:36:10 - [MESSAGE][PASSED] - Current window maximized
+
+2020-07-30 14:36:10 - [TEST_STEP][PASSED] - navigateToUrl("http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx"): Navigate to 'http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx' successfully
+
+2020-07-30 14:36:13 - [MESSAGE][PASSED] - Navigate to 'http://goaml.southeastasia.cloudapp.azure.com/goaml/Login.aspx?ReturnUrl=%2fgoaml%2fDefault.aspx' successfully
+
+2020-07-30 14:36:13 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Login/Username"), username): Text 'Axel2' is set on object 'Object Repository/OR_Login/Username'
+
+2020-07-30 14:36:14 - [MESSAGE][PASSED] - Text 'Axel2' is set on object 'Object Repository/OR_Login/Username'
+
+2020-07-30 14:36:14 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Login/Password"), password): Text 'P@ssw0rd' is set on object 'Object Repository/OR_Login/Password'
+
+2020-07-30 14:36:14 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/OR_Login/Password'
+
+2020-07-30 14:36:14 - [TEST_STEP][PASSED] - click(findTestObject("OR_Login/Sign In Button")): Object: 'Object Repository/OR_Login/Sign In Button' is clicked on
+
+2020-07-30 14:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Login/Sign In Button' is clicked on
+
+2020-07-30 14:36:18 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-07-30 14:36:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-07-30 14:36:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-07-30 14:36:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-30 14:35:20 - [TEST_SUITE][PASSED] - GoAML Login Test Iteration: Test Cases/GoAML Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
